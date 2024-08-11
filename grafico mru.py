@@ -11,7 +11,7 @@ tempo_total = 15 # Tempo total da simulação em segundos
 posicao_inicial = 2  # Posição inicial do objeto em metros
 
 # Geração dos dados de tempo
-tempos = np.linspace(0, tempo_total, num=100)  # 100 pontos de tempo entre 0 e tempo_total
+tempos = np.linspace(0, tempo_total, num=2)  # 2 pontos de tempo entre 0 e tempo_total
 
 # Cálculo da posição para cada instante de tempo
 posicoes = posicao_instantanea(velocidade, tempos, posicao_inicial)
