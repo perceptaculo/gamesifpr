@@ -14,7 +14,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Simulação de MRU")
 
 # Parâmetros do MRU
-velocidade = 10  # Velocidade constante em pixels por frame
+velocidade = 3  # Velocidade constante em pixels por frame
 posicao_x = 50  # Posição inicial no eixo X
 posicao_y = HEIGHT // 2  # Posição constante no eixo Y (meio da tela)
 

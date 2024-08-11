@@ -6,9 +6,9 @@ def posicao_instantanea(velocidade, tempo, posicao_inicial=0):
     return posicao_inicial + velocidade * tempo
 
 # Parâmetros do movimento
-velocidade = 5  # Velocidade constante em metros por segundo
-tempo_total = 10  # Tempo total da simulação em segundos
-posicao_inicial = 0  # Posição inicial do objeto em metros
+velocidade = 3  # Velocidade constante em metros por segundo
+tempo_total = 15 # Tempo total da simulação em segundos
+posicao_inicial = 2  # Posição inicial do objeto em metros
 
 # Geração dos dados de tempo
 tempos = np.linspace(0, tempo_total, num=100)  # 100 pontos de tempo entre 0 e tempo_total
